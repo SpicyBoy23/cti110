@@ -25,7 +25,7 @@ expenses = int( gas + accomodations + food)
 remaining_balance = int(budget - expenses)
 
 print("------------Travel Expenses------------")
-print("Location:           ,location)
+print("Location:            ",location)
 print(f'Initial Budget:     ${budget:.2f}')
 print(f'Fuel:               ${gas:.2f}')
 print(f'Accomodations:      ${accomodations:.2f}')
